@@ -82,7 +82,7 @@ table.body {
 
 table.container {
   background: #fefefe;
-  width: 580px;
+  width: 1080px;
   margin: 0 auto;
   Margin: 0 auto;
   text-align: inherit; }
@@ -742,7 +742,7 @@ span.text-center {
   width: 100%;
   text-align: center; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 768px) {
   .small-float-center {
     margin: 0 auto !important;
     float: none !important;
@@ -785,7 +785,7 @@ th.float-center {
   font-size: 0;
   width: 0;
   line-height: 0; }
-  @media only screen and (max-width: 596px) {
+  @media only screen and (max-width: 768px) {
     .hide-for-large {
       display: block !important;
       width: auto !important;
@@ -797,18 +797,18 @@ th.float-center {
 table.body table.container .hide-for-large * {
   mso-hide: all; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 768px) {
   table.body table.container .hide-for-large,
   table.body table.container .row.hide-for-large {
     display: table !important;
     width: 100% !important; } }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 768px) {
   table.body table.container .callout-inner.hide-for-large {
     display: table-cell !important;
     width: 100% !important; } }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 768px) {
   table.body table.container .show-for-large {
     display: none !important;
     width: 0;
@@ -829,7 +829,7 @@ th,
 a {
   color: #717075;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   padding: 0;
   margin: 0;
   Margin: 0;
@@ -845,7 +845,7 @@ h6 {
   color: inherit;
   word-wrap: normal;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
 
@@ -1187,7 +1187,7 @@ table.menu.text-center a {
 body.outlook p {
   display: inline !important; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 768px) {
   table.body img {
     width: auto;
     height: auto; }
@@ -1347,3 +1347,128 @@ body.outlook p {
     table.button.small-expand center,
     table.button.small-expanded center {
       min-width: 0; } }
+
+
+      body,
+      html,
+      .body {
+        background: #fff !important;
+      }
+  
+      /* table.container {
+        width: 1080px;
+      }
+   */
+      .text-justify {
+        text-align: justify;
+      }
+  
+      .container.header-row {
+        margin-top: 40px;
+        margin-bottom: 60px;
+      }
+  
+      @media only screen and (min-width: 768px) {
+        .header-text {
+          padding: 0px 54px;
+        }
+  
+        .header-text-desc {
+          padding: 12px 52px;
+        }
+  
+        .article-text {
+          padding: 0px 32px 0px 60px;
+        }
+  
+        .article-date {
+          padding-left: 60px;
+        }
+  
+        .article-date-details {
+          padding-right: 32px;
+        }
+  
+        .article-button {
+          margin-left: 60px !important;
+        }
+  
+        .content-row {
+          margin-bottom: 68px !important;
+        }
+      }
+  
+      .article-date-details {
+        margin-bottom: 0;
+      }
+  
+      table.button table td {
+        border: none;
+        border-radius: 20px;
+        background-color: #2E5171;
+      }
+
+      table.button.success table td {
+        background-color: #3adb76;
+      }
+  
+      .footer-container {
+        background-color: #D6D7D8;
+      }
+  
+      .footer-hr {
+        width: 55%;
+        border-style: solid;
+        color: #A4A4A5;
+      }
+  
+      .footer-logos {
+        width: 45%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+
+      .header-logo {
+        width: 280px!important;
+      }
+  
+      @media only screen and (max-width: 768px) {
+        .container.header-row {
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+  
+        .footer-hr {
+          width: 80%;
+        }
+  
+        .footer-logos {
+          width: 70%!important;
+        }
+
+        .header-logo {
+          width: 190px!important;
+        }
+      }
+  
+      .relative {
+        position: relative;
+      }
+  
+      .footer-fb-logo {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+      }
+
+      table.button.expanded {
+        width: 76%!important;
+      }
+
+      .bold {
+        font-weight: 800;
+      }
+
+      .button.success {
+
+      }
