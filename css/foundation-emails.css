@@ -1472,3 +1472,12 @@ body.outlook p {
       .button.success {
 
       }
+
+.cover {
+  /* font-size:16px; */
+  line-height:600px;
+  background-image: url('../img/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
