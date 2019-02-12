@@ -82,7 +82,7 @@ table.body {
 
 table.container {
   background: #fefefe;
-  width: 1080px;
+  width: 580px;
   margin: 0 auto;
   Margin: 0 auto;
   text-align: inherit; }
@@ -1429,7 +1429,7 @@ body.outlook p {
       }
 
       .header-logo {
-        width: 280px!important;
+        /* width: 280px!important; */
       }
   
       @media only screen and (max-width: 768px) {
