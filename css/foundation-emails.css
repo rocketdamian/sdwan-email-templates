@@ -1456,9 +1456,10 @@ body.outlook p {
       }
   
       .footer-fb-logo {
-        position: absolute;
-        right: 16px;
-        top: 16px;
+        position: absolute!important;
+        right: 16px!important;
+        top: 16px!important;
+        z-index: 10!important;
       }
 
       table.button.expanded {
@@ -1469,12 +1470,7 @@ body.outlook p {
         font-weight: 800;
       }
 
-      .button.success {
-
-      }
-
 .cover {
-  /* font-size:16px; */
   line-height:600px;
   background-image: url('../img/cover.jpg');
   background-repeat: no-repeat;
